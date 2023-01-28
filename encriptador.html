@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="img/logo.png">
+        <h1 class="tittle">Encriptador de mensajes</h1>
+       
+      </div>
+      <div class="left">
+          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+      </div>
+      <div class="right">
+        <img src="img/2.png" id="imgDer">
+        <h1 id="texto">Ningún mensaje fue encontrado</h1>
+        <textarea id="texto2" >Ingresa el texto que desees encriptar o desencriptar.</textarea>
+        <button type="button" id="copiar" onclick="copia()">Copiar</button>
+      </div>
+      <div class="left-button">
+        <p>Sólo ingresar letras minusculas y sin acento</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+      </div>
+    </div>
+    <footer>
+      <h3> <a  href = "https://github.com/VictoriaPenin" target="_blank">Desarrollado por Victoria Peñin </a> </h3>
+    </footer>
+  </body>
+</html>
